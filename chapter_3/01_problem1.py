@@ -5,4 +5,4 @@ print("good morning",name)
 
 #or
 
-print(f"good morning {name}")     # fstring is used 
+print(f"good morning {name}")     # fstring is used
