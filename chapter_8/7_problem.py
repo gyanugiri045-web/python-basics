@@ -1,37 +1,37 @@
-# #### using a enter controlled loop 
-n=int(input("Enter a number:"))
-i=100
+# # #### using a enter controlled loop 
+# n=int(input("Enter a number:"))
+# i=100
 
-while (i<=10):
-    print(i)
-    i+=1
+# while (i<=10):
+#     print(i)
+#     i+=1
 
 
 
-#### using a exit controlled loop 
-while True:
-    number=int(input("Enter a number:"))
-    print("You entered a number")
-    choice=input("Do you want to continue? (yes/no):")
+# #### using a exit controlled loop 
+# while True:
+#     number=int(input("Enter a number:"))
+#     print("You entered a number")
+#     choice=input("Do you want to continue? (yes/no):")
 
-    if choice == "no":
-        break
+#     if choice == "no":
+#         break
  
 
-#### print a even number from 1 to 10
+# #### print a even number from 1 to 10
 
-for i in range(1, 11):
+# for i in range(1, 11):
 
-    if i % 2 != 0:
-        continue
-    print(f"{i} is a even number")
+#     if i % 2 != 0:
+#         continue
+#     print(f"{i} is a even number")
 
-    if i == 6:
-        continue
-    print("it is prime number is not 3")
+#     if i == 6:
+#         continue
+#     print("it is prime number is not 3")
 
 
-
+# #########
 n=int(input("Enter a number:"))
 
 for i in range(2, n):
@@ -41,3 +41,21 @@ for i in range(2, n):
 
     else:
         print("Number is prime.")
+
+
+
+########
+
+       
+def is_prime(number):
+    for i in range(2, number):
+        if number % i == 0:
+            return False
+        
+    return True
+num = int(input("Enter a number: "))
+
+if is_prime(num):
+    print("Prime number")
+else:
+    print("Not a prime number")
