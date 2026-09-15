@@ -9,8 +9,6 @@ for i in range(2, n):
 
     else:
         print("Number is prime.")
-\
-
 
 
 

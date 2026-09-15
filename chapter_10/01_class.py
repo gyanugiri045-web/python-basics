@@ -10,4 +10,4 @@ ram=Employee()
 ram.name="ram"
 print(ram.name,ram.language,ram.salary)
 
-# here name is object attribute and salary and language are class attribute  they directly belong to class
+### Here name is object attribute and salary and language are class attribute  they directly belong to class
