@@ -1,6 +1,6 @@
 name="harry"
 
-print(len(name))              #print length of thw word
-print(name.startswith("ha"))  #print first words
-print(name.endswith("rry"))   #print last words
+print(len(name))              #print length of the word
+print(name.startswith("h"))  #print first words
+print(name.endswith("y"))   #print last words
 print(name.capitalize())      #capitalize first word

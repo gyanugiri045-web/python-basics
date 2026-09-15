@@ -14,3 +14,6 @@ print(name[0:3])
 nums=1234
 firstnums=str(nums)
 print(firstnums[0:3])
+
+
+## String slicing is a way to extract a portion (substring) of a string by specifying a range of index positions,instead of grabbing the whole string or a single character.
