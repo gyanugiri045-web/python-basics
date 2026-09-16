@@ -6,7 +6,7 @@ class employee:
 class programmer(employee):
     company="ITC fortage"
     def showlanguage(self):
-        print(f"The name s {self.name} and henis good with {self.language} language")
+        print(f"The name s {self.name} and henis good with {self.language} language")        ### inheritance class
 
 a = employee()
 b=programmer()
