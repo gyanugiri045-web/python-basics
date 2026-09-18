@@ -1,18 +1,18 @@
-# def say_hello():
-#     # print("hello")
-#     return "I also return now"
+def say_hello():
+    # print("hello")
+    return "I also return now"
 
-# def return_hello():
-#     return "hello"
+def return_hello():
+    return "hello"
 
-# a = say_hello()
+a = say_hello()
 
-# return_hello()
+return_hello()
 
-# x = 5
+x = 5
 
-# print(f"say hello gave: {x}")
-# # print(f"return hello gave: {b}")
+print(f"say hello gave: {x}")
+print(f"return hello gave: {b}")
 
 
 def sum(x, y):

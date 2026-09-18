@@ -1,0 +1,2 @@
+{'name': 'ramesh shrestha', 'roll': 13, 'marks': [34, 23, 34, 45, 12]}
+{'name': 'reyan', 'roll': 12, 'marks': [99, 89, 9897, 96, 95]}
