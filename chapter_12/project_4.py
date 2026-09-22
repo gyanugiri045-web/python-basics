@@ -18,10 +18,3 @@ def prime():
         print(num, "is not a prime number")
 
 prime()
-
-
-
-
-
-  
-
