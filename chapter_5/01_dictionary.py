@@ -7,3 +7,4 @@ marks={
 marks.update({"reyan":100})
 
 print(marks["ram"])
+print(marks)

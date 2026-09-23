@@ -3,4 +3,4 @@
 a=int(input("Enter a number 1:"))
 b=int(input("Enter a number 2:"))
 
-print("a is greater than b is:", a>b)
+print("a is greater than b is:", a>b)        # it give output in ( TRUE OR FAILSE )

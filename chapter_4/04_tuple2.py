@@ -15,5 +15,5 @@ marks.append(m5)
 m6=int(input("Enter marks here :"))
 marks.append(m6)
 
-marks.sort()
+marks.sort()      ## arrange the list in ascending order (smaller number to large )
 print(marks)
